@@ -20,7 +20,9 @@
     "start:prod": "NODE_ENV=production webpack-dev-server --config webpack.config.js --progress --colors --watch",
     "test": "./../../node_modules/.bin/jest",
     "test:debug": "node --inspect-brk ./../../node_modules/.bin/jest --runInBand",
-    "test:watch": "./../../node_modules/.bin/jest --watchAll"
+    "test:watch": "./../../node_modules/.bin/jest --watchAll",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -95,6 +97,8 @@
     "redux-saga": "^0.16.0",
     "redux-ui": "^0.1.1",
     "styled-components": "^2.2.3",
-    "zxcvbn": "^4.4.2"
-  }
+    "zxcvbn": "^4.4.2",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
