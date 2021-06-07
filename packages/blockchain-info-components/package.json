@@ -50,7 +50,7 @@
     }
   },
   "dependencies": {
-    "polished": "^1.9.0",
+    "polished": "^3.7.2",
     "ramda": "^0.25.0",
     "react-onclickoutside": "^6.7.1"
   },
