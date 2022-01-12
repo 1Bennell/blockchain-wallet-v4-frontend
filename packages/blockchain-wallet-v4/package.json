@@ -62,7 +62,7 @@
     "isomorphic-fetch": "^2.2.1",
     "pbkdf2": "^3.0.12",
     "query-string": "^5.0.1",
-    "ramda": "^0.25.0",
+    "ramda": "^0.27.2",
     "ramda-lens": "git+https://github.com/ramda/ramda-lens.git",
     "read-blob": "^1.1.0",
     "redux": "^3.6.0",
